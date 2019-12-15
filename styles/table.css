@@ -1,0 +1,74 @@
+table {
+  margin: auto;
+  width: 90%;
+  border: none;
+  margin-bottom: 2em;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: black;
+}
+
+.tableinfo {
+  color: red;
+  padding-bottom: 0.4em;
+}
+
+.times {
+  color: red;
+  border: solid white 1px;
+}
+
+.day, .hour, .minute, .sec {
+  border: solid white 1px;
+}
+
+.tableinfobutton {
+  margin-top: 0.7em;
+  margin-bottom: 0.5em;
+  color: red;
+  width: 60%;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 10px;
+  background: black;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.tableinfobutton:after, .tableinfobutton:before {
+  content: " ";
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border: red;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.tableinfobutton:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid red;
+  border-left: 5px solid red;
+}
+
+.tableinfobutton:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid red;
+  border-right: 5px solid red;
+}
+
+.tableinfobutton:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.tableinfobutton:hover:before, .tableinfobutton:hover:after {
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=table.css.map */

@@ -1,0 +1,148 @@
+.header {
+  background-color: black;
+}
+
+.naslov {
+  text-align: center;
+  color: red;
+  margin-top: 8px;
+  font-variant-caps: inherit;
+  opacity: 0;
+  -webkit-animation-name: vid;
+          animation-name: vid;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes vid {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes vid {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slika1 {
+  height: 100px;
+}
+
+.navigator {
+  text-align: center;
+  color: blue;
+  font-size: 18px;
+  padding: 0.4em;
+}
+
+.navopt {
+  color: red;
+  margin: 8px;
+}
+
+.header img {
+  width: 150px;
+}
+
+.item {
+  height: 30%;
+}
+
+.container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navbar {
+  background-color: black;
+  border-color: black;
+  color: red;
+  margin-bottom: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+.navbar-default .navbar-nav li a {
+  color: red;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: red;
+}
+
+.navbar-brand {
+  background-image: url("../images/HeB-logo-beli-transparent.png");
+  background-size: cover;
+  width: 150px;
+}
+
+.vremee {
+  display: none;
+  background-color: black;
+  padding: 3px;
+  border-radius: 5px;
+  text-align: right;
+  z-index: 1;
+  position: relative;
+  right: 10px;
+  opacity: 0.9;
+}
+
+.brojj_day {
+  padding: 2px;
+  color: black;
+  background-color: red;
+  opacity: 0.9;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.brojj_hour {
+  padding: 2px;
+  color: black;
+  background-color: red;
+  opacity: 0.9;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.brojj_minute {
+  padding: 2px;
+  color: black;
+  background-color: red;
+  opacity: 0.9;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.brojj_sec {
+  padding: 2px;
+  color: black;
+  background-color: red;
+  opacity: 0.9;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.ime_vreme {
+  border-right: 2px solid;
+  margin-right: 2px;
+}
+/*# sourceMappingURL=header.css.map */

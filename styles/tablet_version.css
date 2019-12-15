@@ -1,0 +1,51 @@
+@media only screen and (min-width: 768px) {
+  .header img {
+    width: 230px;
+  }
+  .naslov {
+    font-size: 3em;
+  }
+  .carousel-inner {
+    height: 500px;
+  }
+  .container {
+    width: 95%;
+  }
+  .naslov_teksta {
+    font-size: 2em;
+  }
+  .main content {
+    width: 55%;
+  }
+  table {
+    width: 55%;
+    font-size: 2em;
+    margin: auto;
+  }
+  .najava {
+    width: 55%;
+  }
+  .btn_concerts {
+    width: 100px;
+  }
+  .footer {
+    font-size: 1.5em;
+  }
+}
+
+.navbar-default {
+  text-align: center;
+}
+
+.navbar-brand {
+  margin-right: 50px;
+}
+
+.navbar-default .navbar-brand {
+  color: #59b6d4;
+}
+
+.vremee {
+  display: block;
+}
+/*# sourceMappingURL=tablet_version.css.map */

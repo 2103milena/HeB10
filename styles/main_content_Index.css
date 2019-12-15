@@ -1,0 +1,376 @@
+.main_content {
+  text-align: center;
+  background-color: wheat;
+  color: whitesmoke;
+  padding: 0.9em;
+  margin: -9px;
+}
+
+.naslov_teksta {
+  font-size: 1.6em;
+  margin-top: 1.6em;
+  margin-bottom: 1.4em;
+  position: relative;
+}
+
+.footer {
+  background-color: black;
+  background-size: cover;
+  text-align: center;
+  padding: 0.7em;
+  color: red;
+}
+
+.fa {
+  font-size: 30px;
+  width: 30px;
+  margin: 3px 3px;
+  opacity: 0.9;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #e2cccc;
+}
+
+.fa-twitter {
+  color: #e2cccc;
+}
+
+.fa-youtube {
+  color: #e2cccc;
+}
+
+.fa-instagram {
+  color: #e2cccc;
+}
+
+.najava {
+  width: 90%;
+}
+
+.btn_concerts {
+  position: relative;
+  bottom: 2.5em;
+  width: 100px;
+  color: red;
+  font-size: 1em;
+  margin-bottom: 2em;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 10px;
+  background: black;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.btn_concerts:after, .btn_concerts:before {
+  content: " ";
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border: 0px solid red;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.btn_concerts:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid red;
+  border-left: 5px solid red;
+}
+
+.btn_concerts:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid red;
+  border-right: 5px solid red;
+}
+
+.btn_concerts:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.btn_concerts:hover:before, .btn_concerts:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.input_index {
+  width: 70%;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  margin: 0.5em;
+  border-radius: 5px;
+  background-color: #e2cccc;
+}
+
+.btn_footer {
+  color: #b5c3e9;
+  margin-top: 0.7em;
+  margin-bottom: 0.5em;
+  border-radius: 1em;
+  background-color: #000075;
+}
+
+.artists {
+  height: 200px;
+  background-size: cover;
+  margin: auto;
+  border: solid;
+  position: relative;
+  border-radius: 5px;
+  -webkit-animation-name: myanimation;
+          animation-name: myanimation;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes myanimation {
+  0% {
+    background-image: url("../images/yusimi99.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  15% {
+    background-image: url("../images/yoaniss.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  25% {
+    background-image: url("../images/andyu.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  35% {
+    background-image: url("../images/yulietsaul.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  45% {
+    background-image: url("../images/madelineyoya.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  60% {
+    background-image: url("../images/dianaosmani.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  70% {
+    background-image: url("../images/yeni99.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  85% {
+    background-image: url("../images/dvojica99.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  100% {
+    background-image: url("../images/yoyo99.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+}
+
+@keyframes myanimation {
+  0% {
+    background-image: url("../images/yusimi99.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  15% {
+    background-image: url("../images/yoaniss.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  25% {
+    background-image: url("../images/andyu.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  35% {
+    background-image: url("../images/yulietsaul.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  45% {
+    background-image: url("../images/madelineyoya.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  60% {
+    background-image: url("../images/dianaosmani.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  70% {
+    background-image: url("../images/yeni99.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  85% {
+    background-image: url("../images/dvojica99.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+  100% {
+    background-image: url("../images/yoyo99.jpg");
+    background-size: cover;
+    opacity: 0.7;
+  }
+}
+
+.btn_art {
+  position: relative;
+  bottom: 50px;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 10px;
+  background: black;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.btn_art:after, .btn_art:before {
+  content: " ";
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border: 0px solid red;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.btn_art:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid red;
+  border-left: 5px solid red;
+}
+
+.btn_art:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid red;
+  border-right: 5px solid red;
+}
+
+.btn_art:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.btn_art:hover:before, .btn_art:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.naslovi {
+  text-align: center;
+  border-bottom: solid whitesmoke;
+  margin: 0px 100px 30px 100px;
+  font-size: 30px;
+}
+
+.elnino {
+  width: 90%;
+  margin-bottom: 40px;
+  opacity: 0.9;
+}
+
+.aftermovie_btn {
+  position: relative;
+  top: 120px;
+  z-index: 1;
+  opacity: 0.8;
+  cursor: pointer;
+  position: relative;
+  padding: 5px 10px;
+  background: black;
+  font-size: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.aftermovie_btn:after, .aftermovie_btn:before {
+  content: " ";
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  border: 0px solid red;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.aftermovie_btn:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid red;
+  border-left: 5px solid red;
+}
+
+.aftermovie_btn:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid red;
+  border-right: 5px solid red;
+}
+
+.aftermovie_btn:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.aftermovie_btn:hover:before, .aftermovie_btn:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-right {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide-right h2 {
+  -webkit-animation: 2s slide-right 2s forwards;
+          animation: 2s slide-right 2s forwards;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+@-webkit-keyframes slide-right {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes slide-right {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.slider_teksta {
+  height: 100px;
+}
+/*# sourceMappingURL=main_content_Index.css.map */
